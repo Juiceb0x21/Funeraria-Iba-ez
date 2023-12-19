@@ -1,0 +1,223 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block contenido %}
+
+    <div class="main-banner header-text" id="top">
+        <div class="Modern-Slider">
+          <!-- Item -->
+          <div class="item item-1">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h6>Estamos a tu servicio</h6>
+                  <h4>Funerales<br>&amp; Translados</h4>
+                  <p>Santiago de chile, Av. Santa Rosa 9492, local 1</p>
+                  <a href="https://www.google.com/maps/place/Funeraria+Ibanez/@-33.5479379,-70.6354931,17z/data=!3m1!4b1!4m6!3m5!1s0x9662da72bd521f21:0x81fcde7e1327d354!8m2!3d-33.5479424!4d-70.6329182!16s%2Fg%2F11ggvp5dc4?entry=ttucontact.html" class="filled-button">Encuentranos</a>
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+          
+    </div>
+    <!-- Banner Ends Here -->
+
+    <div class="request-form">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h4>Necesitas contactarnos?</h4>
+            <span>Hazlo ahora mismo</span>
+          </div>
+          <div class="col-md-4">
+            <a href="#contacto" class="border-button">Contactanos</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Nuestros<em> Servicios</em></h2>
+              <span>Hechos solo para ti</span>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <img src="{% static 'core/images/basico1.jpg' %}" alt="">
+              <div class="down-content">
+                <h4>Standard</h4>
+                <br>
+                <div style="text-align: left;">
+                  <h5>Urna y Capilla:</h5>
+                    <p>
+                    -Urna rebosada de madera empachada estándar
+                    <br>
+                    -Capilla standard
+                    <br>
+                    -Cruz de madera
+                    </p>
+                    <h5>Servicios Básicos:</h5>
+                    <p>
+                    -Retiro y traslado al lugar del velatorio
+                    <br>
+                    -Carroza o Van para instalación
+                    <br>
+                    -Carroza convencional para el funeral
+                    </p>
+                    <h5>Asesorías:</h5>
+                    <p>
+                    -Orientación legal
+                    <br>
+                    -Tramitación en Registro Civil
+                    <br>
+                    -Pase de sepultación
+                    <br>
+                    -Tramitación de traslado
+                    <br>
+                    -Servicios Anexos
+                    <br>
+                    -Libro de condolencias
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <img src="{% static 'core/images/gold1-1.jpg' %}" alt="">
+              <div class="down-content">
+                <h4>Tradicional</h4>
+                <br>
+                <div style="text-align: left;">
+                  <h5>Urna y Capilla:</h5>
+                  <p>
+                  -Urna rebosada de madera empachada básica
+                  <br>
+                  -Capilla standard
+                  <br>
+                  -Cruz de madera
+                </p>
+                 
+                  <h5>Servicios Básicos:</h5>
+                  <p>
+                  -Retiro y traslado al lugar del velatorio
+                  <br>
+                  -Carroza o Van para instalación
+                  <br>
+                  -Carroza convencional para el funeral
+                </p>
+                  <h5>Asesorías:</h5>
+                  <p>
+                  -Orientación legal
+                  <br>
+                  -Tramitación en Registro Civil
+                  <br>
+                  -Pase de sepultación
+                  <br>
+                  -Tramitación de traslado
+                  </p>
+                  <br>
+                  <h5>Servicios Anexos:</h5>
+                  <p>
+                  -Libro de condolencias
+                  <br>
+                  -Auto de acompañamiento
+                  <br>
+                  -Servicio cafeteria
+                </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <img src="{% static 'core/images/premium1.jpg' %}" alt="">
+              <div class="down-content">
+                <h4>Servicios de alto costo</h4>
+                <p>Extra</p>
+                <a href="{% url 'one-page' %}" class="filled-button">Ver mas</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="more-info" id="nosotros">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="more-info-content">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="left-image">
+                    <img src="{% static 'core/images/more-info.jpg' %}" alt="">
+                  </div>
+                </div>
+                <div class="col-md-6 align-self-center">
+                  <div class="right-content">
+                    <span>Quienes somos</span>
+                    <h2>Conoce acerca de<em> Nuestra compañia</em></h2>
+                    <p>Curabitur pulvinar sem a leo tempus facilisis. Sed non sagittis neque. Nulla conse quat tellus nibh, id molestie felis sagittis ut. Nam ullamcorper tempus ipsum in cursus<br><br>Praes end at dictum metus. Morbi id hendrerit lectus, nec dapibus ex. Etiam ipsum quam, luctus eu egestas eget, tincidunt</p>
+                    <a href="#" class="filled-button">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="callback-form" id="contacto">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Request a <em>call back</em></h2>
+              <span>Etiam suscipit ante a odio consequat</span>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="contact-form">
+              <form id="contact" action="" method="post">
+                <div class="row">
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="name" type="text" class="form-control" id="name" placeholder="Full Name" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail Address" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your Message" required=""></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <button type="submit" id="form-submit" class="border-button">Send Message</button>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+{% endblock %}
+    
